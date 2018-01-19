@@ -1,0 +1,7 @@
+/target/
+main/test-output/
+
+# Eclipse STS artifacts
+**/.settings/**
+**/.classpath
+**/.project
