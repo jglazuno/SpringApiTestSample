@@ -3,7 +3,12 @@
 
 	<test name="Tests">
 
-		<!-- Add individual packages you wanted to execute below -->
+		<groups>
+      		<run>
+	 			<include name="BB"/>
+	 		</run>
+		</groups>
+		
 		<packages>
 			<package name="com.iu.test.*" />
 		</packages>
